@@ -1,246 +1,251 @@
 html {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background: #f5deb3 url(../img/jeswin-thomas-PtfRiBumfQU-unsplash.jpg) top left/contain no-repeat;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #f5deb3 url(../img/jeswin-thomas-PtfRiBumfQU-unsplash.jpg) top
+    left/contain no-repeat;
+  text-align: center;
 }
 
 .row {
-    display: flex;
-    margin-top: 1rem;
+  display: flex;
+  margin-top: 1rem;
 }
 
 .col-2 {
-    width: 50%;
+  width: 50%;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.54);
-    position: fixed;
-    width: 100%;
-    padding: 1rem;
+  background: rgba(0, 0, 0, 0.54);
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
 }
 
 header ul {
-    margin-left: 7rem;
-    gap: 65px;
+  margin-left: 7rem;
+  gap: 65px;
 }
 
 header li {
-    margin-top: 6.4rem;
-    margin-bottom: 3.8rem;
+  margin-top: 6.4rem;
+  margin-bottom: 3.8rem;
 }
 
 header ul a {
-    font-size: 1.6rem;
-    color: #fff;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .info a:hover,
 header ul a:hover {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 header ul a i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 header .menu {
-    display: none;
-    font-size: 3rem;
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
+  display: none;
+  font-size: 3rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
 }
 
 .info {
-    margin-bottom: 11.2rem;
+  margin-bottom: 11.2rem;
 }
 
 .info .logo {
-    width: 20rem;
-    height: 20rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px -48px 48px 0px inset, rgb(255, 255, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0.3) 4.8px 4.8px 64px 0px;
-    margin-top: 11rem;
-    margin-bottom: 16.1rem;
-    animation: windowsFly ease-out 3s;
+  width: 20rem;
+  height: 20rem;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px -48px 48px 0px inset,
+    rgb(255, 255, 255) 0px 0px 0px 4px,
+    rgba(0, 0, 0, 0.3) 4.8px 4.8px 64px 0px;
+  margin-top: 11rem;
+  margin-bottom: 16.1rem;
+  animation: windowsFly ease-out 3s;
 }
 
 .info h1 {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 4rem;
-    text-shadow: 2px 2px 4px #000;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4rem;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .info p {
-    font-size: 1.6rem;
-    margin-bottom: 2.4rem;
-    text-shadow: 1px 1px 2px #000;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .info a {
-    color: #fff;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 700;
-    text-shadow: 1px 1px 2px #000;
+  color: #fff;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .info a i {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .container {
-    background: rgba(100, 98, 98, 0.288);
-    width: 92%;
-    margin: auto;
-    margin-top: 7.5rem;
-    padding: 2rem;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background: rgba(100, 98, 98, 0.288);
+  width: 92%;
+  margin: auto;
+  margin-top: 7.5rem;
+  padding: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .container .img {
-    display: block;
-    border-radius: 10%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin: auto;
-    margin-bottom: 2.4rem;
-    width: 50%;
+  display: block;
+  border-radius: 10%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin: auto;
+  margin-bottom: 2.4rem;
+  width: 50%;
 }
 
 .container h2 {
-    font-size: 2.4rem;
-    font-weight: 700;
-    text-align: center;
-    text-shadow: rgb(0, 0, 0) 0.5px 0.5px 0px;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: rgb(0, 0, 0) 0.5px 0.5px 0px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .container h3 {
-    font-size: 1.872rem;
-    font-weight: 700;
-    margin-bottom: 1.9rem;
+  font-size: 1.872rem;
+  font-weight: 700;
+  margin-bottom: 1.9rem;
 }
 
 .container .list {
-    background: #fff;
-    padding: 5rem 0 1rem 5rem;
-    border-radius: 0.5rem;
+  background: #fff;
+  padding: 5rem 0 1rem 5rem;
+  border-radius: 0.5rem;
 }
 
 .container .list li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
 }
 
 .container .list h4 {
-    color: #555555;
-    font-size: 1.6rem;
-    font-weight: 700;
-    width: 50%;
+  color: #555555;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 50%;
 }
 
 .container .list h4:nth-child(1) {
-    text-align: left;
+  text-align: left;
 }
 
 .container .list h4:nth-child(2) {
-    text-align: right;
+  text-align: right;
 }
 
 .container .list p {
-    color: #999999;
-    width: 100%;
-    font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 0.9rem;
+  color: #999999;
+  width: 100%;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 0.9rem;
 }
 
 .container .list hr {
-    width: 100%;
-    margin-bottom: 4rem;
+  width: 100%;
+  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 768px) {
-    header ul {
-        gap: 45px;
-    }
+  header ul {
+    gap: 45px;
+  }
 
-    .info .logo {
-        margin-bottom: 3.6rem;
-    }
+  .info .logo {
+    margin-bottom: 3.6rem;
+  }
 
-    .info h1 {
-        margin-bottom: 3rem;
-    }
+  .info h1 {
+    margin-bottom: 3rem;
+  }
 
-    .info p {
-        margin-bottom: 1.2rem;
-    }
+  .info p {
+    margin-bottom: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    header {
-        min-height: 5rem;
-    }
+  header {
+    min-height: 5rem;
+  }
 
-    header ul.row {
-        display: none;
-        margin: auto;
-        position: relative;
-    }
+  header ul.row {
+    display: none;
+    margin: auto;
+    position: relative;
+  }
 
-    header .menu {
-        display: block;
-    }
+  header .menu {
+    display: block;
+  }
 
-    header .menu:hover+ul {
-        display: block;
-        margin-bottom: 100%;
-    }
+  header .menu:hover + ul {
+    display: block;
+    margin-bottom: 100%;
+  }
 
-    .info .logo {
-        margin-top: 4rem;
-        width: 16rem;
-        height: 16rem;
-        margin-bottom: 8rem;
-    }
+  .info .logo {
+    margin-top: 4rem;
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 8rem;
+  }
 
-    .row {
-        display: block;
-    }
+  .row {
+    display: block;
+  }
 
-    .col-2 {
-        width: 100%;
-    }
+  .col-2 {
+    width: 100%;
+  }
 
-    .container .img {
-        width: 80%;
-    }
+  .container .img {
+    width: 80%;
+  }
 }
 
 @keyframes windowsFly {
-    0% {
-        filter: blur(10px);
-        opacity: 0;
-        width: 0px;
-    }
-    50% {
-        filter: blur(5px);
-        opacity: 0.5;
-        width: 50%;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    filter: blur(10px);
+    opacity: 0;
+    width: 0px;
+  }
+  50% {
+    filter: blur(5px);
+    opacity: 0.5;
+    width: 50%;
+  }
+  100% {
+    opacity: 1;
+  }
 }
